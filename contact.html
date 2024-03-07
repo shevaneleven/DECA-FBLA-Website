@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="styles.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+        <title>DECA/FBLA Website</title>
+    </head>
+    <body style="background-color: rgb(48, 85, 148);">
+        <!--Header-->
+        <header class="header" style="text-align: center; background-color: white;">
+            <div style="position: sticky">
+                This website is not monitored by or affiliated with CCSD and Advanced Technologies Academy.
+            </div>
+        </header>
+
+        <!--Navigation Bar-->
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid" style="background-color: rgb(48, 85, 148); padding-bottom: 10px; padding-top: 10px;">
+              <a class="navbar-brand" href="#" style="color: white; font-weight: bold; font-size: 45px; padding-left: 50px;">A-TECH DECA/FBLA</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent" style="padding-left: 50px;">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item" style="padding-right: 10px">
+                    <a class="nav-link active" aria-current="page" href="index.html" style="color: white; border: 2px solid white;">Home</a>
+                  </li>
+                  <li class="nav-item" style="padding-right: 10px;">
+                    <a class="nav-link" href="about.html" style="color: white; border: 2px solid white;">About Us</a>
+                  </li>
+                  <li class="nav-item" style="padding-right: 10px">
+                    <a class="nav-link" href="officers.html" style="color: white; border: 2px solid white">Officers</a>
+                  </li>
+                  <li class="nav-item" style="padding-right: 10px">
+                    <a class="nav-link" href="resources.html" style="color: white; border: 2px solid white">Study Resources</a>
+                  </li>
+                  <li class="nav-item" style="padding-right: 10px">
+                    <a class="nav-link" href="accomplishments.html" style="color: white; border: 2px solid white">Accomplishments</a>
+                  </li>
+                  <li class="nav-item" style="padding-right: 10px">
+                    <a class="nav-link" href="contact.html" style="color: white; border: 2px solid white">Contact Us</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+
+          <h1 style="color: white; padding-left: 10px;">Contact Us!</h1>
+
+          <h4 style="color: white; padding-left: 10px;">Let us know about any comments, questions, or concerns you may have regarding DECA/FBLA.</h4>
+          
+          <form action="" style="padding-left: 10px;">
+            <div class="form-group">
+                <label for="firstNameInput" style="color: white; font-size: 20px;">First Name</label>
+                <input type="text" class="form-control" id="firstNameInput" aria-describedby="firstName" placeholder="Enter your first name" required>
+            </div>
+
+            <div class="form-group">
+                <label for="lastNameInput" style="color: white; font-size: 20px;">Last Name</label>
+                <input type="text" class="form-control" id="lastNameInput" aria-describedby="lastName" placeholder="Enter your last name" required>
+            </div>
+
+            <div class="form-group">
+              <label for="exampleInputEmail1" style="color: white; font-size: 20px;">Email address</label>
+              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email" required>
+            </div>
+
+            <div class="form-group" style="padding-bottom: 50px">
+                <label for="comments" style="color: white; font-size: 20px;">Comments, Questions, or Concerns</label>
+                <input type="text" class="form-control" id="comments" aria-describedby="comments" placeholder="Enter your comments, questions, or concerns" style="height: 100px;" required>
+            </div>
+
+            <button type="submit" class="btn btn-primary" style="background-color: white; color: black;">Submit</button>
+          </form>
+
+          <div class="container text-center" style="padding-top: 70px;">
+            <div class="row">
+              <div class="col" style="color: black; background-color: white;">
+                <h1>Stay Updated! Follow us on Instagram!</h1>
+
+                <h2 style="padding-bottom: 10px;">@atechdecafbla</h2>
+
+                <h4>Instagram and Remind are our main forms of communication. Be on the look out for the latest Tiktok trends and updates!</h4>
+              </div>
+              <div class="col">
+                <img src="images/insta.png" style="width: 500px;">
+              </div>
+            </div>
+          </div>
+
+        <div style="background-color: rgb(48, 85, 148); height: 50px;">
+            <p></p>
+        </div>
+
+        <!--Footer-->
+        <footer style="text-align: center; background-color: white;">
+            Advanced Technologies Academy DECA/FBLA Chapter 2024. All Rights Reserved. 
+        </footer>
+        
+        <script>
+            var firstName = document.getElementById(firstNameInput);
+
+            console.log(firstName);
+        </script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    </body>
+   
+</html>
