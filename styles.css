@@ -1,0 +1,55 @@
+#main-title
+{
+    color: black;
+    text-align: left;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 300%;
+}
+
+
+#main-image
+{
+    width: max-content;
+    height: 500px;
+}
+
+
+#intro-paragraph
+{
+    font-size: 200%;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    text-align: left;
+}
+
+
+body
+{
+    background-color: rgb(38, 121, 194);
+}
+
+#deca-resource
+{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 300%;
+    text-align: center;
+}
+
+#deca-resource-info
+{
+    font-size: 200%;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    text-align: right;
+}
+
+
+#glass-image
+{
+    width: max-content;
+    height: 500px;
+}
+
+h1
+{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 250%;
+}
